@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "Todo_App/wsgi.py",
+        "src": "manage.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "Todo_App/wsgi.py"
+        "dest": "manage.py"
       }
     ]
   }
